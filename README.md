@@ -2,17 +2,13 @@
 
 **SLiM simulation and analysis pipeline for studying linked selection in structured populations**
 
-This repository contains a pipeline to simulate deleterious mutations under an Isolation-with-Migration model and to compute summary statistics and gene-tree-based statistics.
+Pipeline SLiM to simulate deleterious mutations under an Isolation with Migration model and to compute summary statistics and gene tree based statistics. 
 
 ## Associated manuscript
 
 **The Joint Impact of Deleterious Mutations, Dominance, and Gene Flow on Linked Neutral Variation in Structured Populations**
 
-Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
-
-## Overview
-
-The pipeline is designed to investigate how deleterious mutations affect linked neutral variation in structured populations
+Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa 
 
 ## Workflow
 
