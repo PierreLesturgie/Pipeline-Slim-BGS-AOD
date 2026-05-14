@@ -16,11 +16,3 @@ cd $DIR
 
 cd ..
 
-#DIR=divdel_asym
-
-#cd $DIR
-
-#../pooling_divdel_asym.sh
-
-#cd ..
-
