@@ -16,29 +16,22 @@ For manuscript:
 ### STEP 1
 **Runs CreateFolderAncestral_trees.sh and then sim_anc_loop_TreeSumstat.sh**
 
-Usage: ```sbatch step_1.sh```
+Usage: ```sbatch STEP_1.sh```
 
 * The first one creates an Ancestral folder and generate one .s file per set of parameters.
 * The second one runs the simulations obtaining one tree per set of parameters and per simulation, and computes statistics. 
 
 ### STEP 2
-**Post analysis ancestral**
-
-Usage: ```sbatch step_2.sh```
-
-* Sort output files and extract the summary statistics for each set of parameters (pooling of all runs) 
-
-### STEP 3
 **Runs createFilesDivFromAnc_trees.sh and then sim_divdel_loop_TreeSumstat.sh**
 
-Usage: ```sbatch step_3.sh```
+Usage: ```sbatch STEP_2.sh```
 
 * The first one creates a Divdel folder and generate one .s file per set of parameters from the Ancestral simulations. 
 * The second one runs the simulations obtaining one tree per set of parameters and per simulation, and computes statistics. 
 
-### STEP 4
-**Post analysis divdel**
+### STEP 3
+**Post analysis**
 
-Usage: ```sbatch step_4.sh```
+Usage: ```sbatch STEP_3.sh```
 
 * Sort output files and extract the summary statistics for each set of parameters (pooling of all runs) 
