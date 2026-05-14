@@ -27,11 +27,12 @@ Usage: ```sbatch STEP_1.sh```
 Usage: ```sbatch STEP_2.sh```
 
 * The first one creates a Divdel folder and generate one .s file per set of parameters from the Ancestral simulations. 
-* The second one runs the simulations obtaining one tree per set of parameters and per simulation, and computes statistics. 
+* The second one runs the simulations obtaining one tree per set of parameters and per simulation, and computes gene-tree based statistics. 
 
 ### STEP 3
 **Post analysis**
 
 Usage: ```sbatch STEP_3.sh```
 
+* Computes genotype-based statistics from ms output
 * Sort output files and extract the summary statistics for each set of parameters (pooling of all runs) 
