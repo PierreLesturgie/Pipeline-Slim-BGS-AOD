@@ -17,9 +17,8 @@ The pipeline is designed to investigate how deleterious mutations affect linked 
 ## Workflow
 
 1. Simulate genomic data with SLiM.
-2. Process tree-sequence outputs.
+2. Process tree-sequence outputs and compute gene-tree-based statistics.
 3. Compute genetic summary statistics.
-4. Compute gene-tree-based statistics.
 5. Summarize results across parameter combinations.
 
 
