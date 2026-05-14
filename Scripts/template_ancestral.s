@@ -21,7 +21,7 @@ initialize()
 	// set the overall mutation rate
 	initializeMutationRate(murate);
 	
-	// MUTATION TYPES ******* WE DO NOT WANT TO SIMULATE/RECORD NEUTRAL MUTATIONS *******
+	// MUTATION TYPES 
 	// m1 mutation type: neutral
 	initializeMutationType("m1", 0.5, "f", 0.0);
         m1.convertToSubstitution = F;
