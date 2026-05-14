@@ -13,8 +13,8 @@ Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
 ## Workflow
 
 1. Simulate genomic data with SLiM.
-2. Process tree-sequence outputs and compute gene-tree-based statistics.
-3. Compute genetic summary statistics.
+2. Process tree-sequence outputs and compute ARG-based statistics.
+3. Compute genotype-based summary statistics.
 5. Summarize results across parameter combinations.
 
 
