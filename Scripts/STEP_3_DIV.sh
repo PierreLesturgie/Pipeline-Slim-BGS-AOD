@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### THIS IS THE FIRST STEP FOR ANCESTRAL
+### THIS IS THE SECOND STEP
 
 chmod 777 *.sh
 
