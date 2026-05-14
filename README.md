@@ -43,5 +43,5 @@ Usage: ```sbatch STEP_2.sh```
 
 Usage: ```sbatch STEP_3.sh```
 
-* Computes genotype-based statistics from ms output: ```R_mig.sh``` and ```R_no_mig.sh```scripts
-* Sort output files and extract the summary statistics for each set of parameters (pooling of all runs) 
+* Computes genotype-based statistics from ms output: ```R_mig.sh``` and ```R_no_mig.sh``` scripts. 
+* Sort output files and extract the summary statistics for each set of parameters (pooling of all runs): ```pooling_divdel.sh``` script 
