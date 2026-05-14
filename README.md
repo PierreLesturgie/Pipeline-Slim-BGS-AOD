@@ -16,6 +16,7 @@ Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
 2. Process tree-sequence outputs and compute ARG-based statistics.
 3. Compute genotype-based summary statistics.
 5. Summarize results across parameter combinations.
+All script must be in the same directory. 
 
 
 **Software requirement:**
