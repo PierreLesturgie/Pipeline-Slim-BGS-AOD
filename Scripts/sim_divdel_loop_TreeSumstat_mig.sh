@@ -59,13 +59,9 @@ task=\$1
 
 slim -l 0 -s 9\${TASK_ID}51\${task}2 -d rep=\${task}\${TASK_ID} ${file} 
 
-#here for G20000
-#gts stats -t ${prefix}_\${task}\${TASK_ID}_G20000 -Nanc 1000 -r 10 -R ${reco} -D ../../scenario_island.txt -G ../../genome.txt
-#gts summary --tag ${prefix}_\${task}\${TASK_ID}_G20000 -r 10 -G ../../genome.txt 
-
-#here for G11000
-#gts stats -t ${prefix}_\${task}\${TASK_ID}_G11000 -Nanc 1000 -r 10 -R ${reco} -D ../../scenario_island.txt -G ../../genome.txt
-#gts summary --tag ${prefix}_\${task}\${TASK_ID}_G11000 -r 10 -G ../../genome.txt 
+here for G11000
+gts stats -t ${prefix}_\${task}\${TASK_ID}_G11000 -Nanc 1000 -r 10 -R ${reco} -D ../../scenario_island.txt -G ../../genome.txt
+gts summary --tag ${prefix}_\${task}\${TASK_ID}_G11000 -r 10 -G ../../genome.txt 
 
 #here for G12000
 #gts stats -t ${prefix}_\${task}\${TASK_ID}_G12000 -Nanc 1000 -r 10 -R ${reco} -D ../../scenario_island.txt -G ../../genome.txt
