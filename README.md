@@ -23,12 +23,12 @@ Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
 * GTS tool (https://github.com/PierreLesturgie/GTS)
 
 ### STEP 1
-**Runs CreateFolderAncestral_trees.sh and then sim_anc_loop_TreeSumstat.sh**
+**Run simulations and extract gene tree based statistics**
 
 Usage: ```sbatch STEP_1.sh```
 
-* The first one creates an Ancestral folder and generate one .s file per set of parameters.
-* The second one runs the simulations obtaining one tree per set of parameters and per simulation, and computes statistics. 
+* The first script run within STEP_1.sh is ```Runs CreateFolderAncestral_trees.sh``` creates an Ancestral folder and generate one .s file per set of parameters.
+* The second script is ```sim_anc_loop_TreeSumstat.sh``` which runs the simulations, and computes gene tree based statistics. 
 
 ### STEP 2
 **Runs createFilesDivFromAnc_trees.sh and then sim_divdel_loop_TreeSumstat.sh**
