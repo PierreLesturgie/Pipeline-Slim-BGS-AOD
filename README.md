@@ -27,7 +27,7 @@ Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
 
 Usage: ```sbatch STEP_1.sh```
 
-* The first script run within STEP_1.sh is ```Runs CreateFolderAncestral_trees.sh``` creates an Ancestral folder and generate one .s file per set of parameters.
+* The first script run within STEP_1.sh is ```CreateFolderAncestral_trees.sh``` creates an Ancestral folder and generate one .s file per set of parameters.
 * The second script is ```sim_anc_loop_TreeSumstat.sh``` which runs the simulations, and computes gene tree based statistics. 
 
 ### STEP 2
