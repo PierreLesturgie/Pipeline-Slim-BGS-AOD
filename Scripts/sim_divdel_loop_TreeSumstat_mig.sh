@@ -6,7 +6,7 @@
 # Outputs a file with the state of the population at the end of the simulation.
 # This output file can be used to start other scenarios from a population at equilibrium.
 
-# Modificaton by Pierre Lesturgie, 27/05/25 to adapt to DEUCALION
+# Modificaton by Pierre Lesturgie, 27/05/25 to adapt to tree stat computation and to DEUCALION HPC structure
 # Strucure: 
 # 1. this script first creates a directory for each set of parameters ($prefix)
 # 2. In each directory, it writes 2 scripts: $prefix/${file}_for_loop.sh  and  $prefix/${file}.sh
