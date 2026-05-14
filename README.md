@@ -1,12 +1,12 @@
 # Pipeline-Slim-BGS-AOD
 
-### Pipeline SLiM to simulate deleterious mutations under an Isolation with Migration model and to compute summary statistics and gene tree based statistics. 
+#### Pipeline SLiM to simulate deleterious mutations under an Isolation with Migration model and to compute summary statistics and gene tree based statistics. 
 
 For manuscript: 
 
-#### The Joint Impact of Deleterious Mutations, Dominance, and Gene Flow on Linked Neutral Variation in Structured Populations
+### The Joint Impact of Deleterious Mutations, Dominance, and Gene Flow on Linked Neutral Variation in Structured Populations
 
-#### By Pierre Lesturgie, Alexandre Blanckaert and Vitor C. Sousa
+### By Pierre Lesturgie, Alexandre Blanckaert and Vitor C. Sousa
 
 
 **Software requirement:**
