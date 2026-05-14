@@ -23,20 +23,20 @@ Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
 * GTS tool (https://github.com/PierreLesturgie/GTS)
 
 ### STEP 1
-**Run simulations and extract gene tree based statistics**
+**Run ancestral population simulations**
 
 Usage: ```sbatch STEP_1.sh```
 
-* The first script run within STEP_1.sh is ```CreateFolderAncestral_trees.sh``` creates an Ancestral folder and generate one .s file per set of parameters.
-* The second script is ```sim_anc_loop_TreeSumstat.sh``` which runs the simulations, and computes gene tree based statistics. 
+* The first script run within ```STEP_1.sh``` is ```CreateFolderAncestral_trees.sh``` creates an Ancestral folder and generate one .s file per set of parameters.
+* The second script is ```sim_anc_loop_TreeSumstat.sh``` which runs the simulations. 
 
 ### STEP 2
-**Runs createFilesDivFromAnc_trees.sh and then sim_divdel_loop_TreeSumstat.sh**
+**Run the two-populations phase simulations**
 
 Usage: ```sbatch STEP_2.sh```
 
-* The first one creates a Divdel folder and generate one .s file per set of parameters from the Ancestral simulations. 
-* The second one runs the simulations obtaining one tree per set of parameters and per simulation, and computes gene-tree based statistics. 
+* The first script within ```STEP_2.sh``` is ```createFilesDivFromAnc_trees.sh``` which creates a Divdel folder and generate one .s file per set of parameters from the Ancestral simulations files. 
+* The second one is ```sim_divdel_loop_TreeSumstat.sh``` which runs the simulations obtaining one tree per set of parameters and per simulation, and computes gene-tree based statistics. 
 
 ### STEP 3
 **Post analysis**
