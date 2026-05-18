@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # computing genotype-based stats from ms output
+./merge_all_file_v2.sh
+
 ./R_mig.sh
 ./R_no_mig.sh
 
