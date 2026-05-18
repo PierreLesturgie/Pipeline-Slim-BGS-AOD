@@ -14,7 +14,7 @@ Pierre Lesturgie, Alexandre Blanckaert, and Vitor C. Sousa
 
 1. Simulate genomic data with SLiM.
 2. Process tree-sequence outputs and compute ARG-based statistics.
-3. Compute genotype-based summary statistics.
+3. Generate output in the ms format and compute genotype-based summary statistics.
 5. Summarize results across parameter combinations.
 All script must be in the same directory. 
 
